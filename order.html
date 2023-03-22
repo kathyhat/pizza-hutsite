@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="pizzacss.css">
+        
+        <title>Pizza Hut Learning Website</title>
+    </head>
+    <body>
+        <h1><a href="index.html">Pizza Hut Learning Website</a></h1>
+        
+        <form action="thanks.html">
+            <fieldset>
+                <legend><h3>Order Information</h3></legend>
+                <table>
+                    <tr>
+                        <td><label for="salutation">Salutation:</label></td>
+                        <td>
+                            <select name="salutation"> 
+                                <option value="mr">Mr</option> 
+                                <option value="ms">Ms</option> 
+                                <option value="mrs">Mrs</option> 
+                                <option value="mdm">Mdm</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname" name="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname" name="lname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pizza">Pizza:</label></td>
+                        <td>
+                            <select name="pizza"> 
+                                <option value="Hawaiian">Hawaiian</option>
+                                <option value="Chicken Supreme">Chicken Supreme</option>
+                                <option value="Super Supreme">Super Supreme</option>
+                                <option value="Beyond Supreme">Beyond Supreme</option>
+                                <option value="Curry Chicken">Curry Chicken</option>
+                                <option value="Meat Galore">Meat Galore</option>
+                                <option value="Beef Pepperoni">Beef Pepperoni</option>
+                                <option value="Veggie Lover's">Veggie Lover's</option>
+                                <option value="BBQ Chunky Chic">BBQ Chunky Chic</option>
+                                <option value="Cheese 'n' Chic">Cheese 'n' Chic</option>
+                                <option value="Chic Ham 'n' Shroom<">Chic Ham 'n' Shroom<</option>
+                                <option value="Simply Cheese">Simply Cheese</option>
+                                <option value="Very Beefy">Very Beefy</option>
+                                <option value="BBQ Chicken">BBQ Chicken</option>
+                                <option value="Hawaiian Supreme">Hawaiian Supreme</option>
+                                <option value="The Four Cheese">The Four Cheese</option>
+                                <option value="Chicky Ham 'N' Corn">Chicky Ham 'N' Corn</option>
+                                <option value="Just Cheese">Just Cheese</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="chilli">Chilli Flakes ($1 per packet):</label></td>
+                        <td>
+                            <select name="chilli"> 
+                                <option value="1">1</option> 
+                                <option value="2">2</option> 
+                                <option value="3">3</option> 
+                                <option value="4">4</option>
+                                <option value="5">5</option> 
+                                <option value="6">6</option> 
+                                <option value="7">7</option> 
+                                <option value="8">8</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="express">Express Delivery ($5):</label></td>
+                        <td>
+                            <input type="radio" name="express" value="yes"> Yes
+                            <input type="radio" name="express" value="no"> No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Quantity:</label></td>
+                        <td><input type="range" min="1" max="10" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Special Instructions:</label></td>
+                        <td><textarea name="address" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="right">
+                            <button type="reset">Clear</button>
+                            <button type="submit">Order Now</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </fieldset>
+        <p class="bottom">
+            <i>This is a learning website. All images and content are taken from <a href="https://www.pizzahut.com.sg/" target="_blank">https://www.pizzahut.com.sg/</a>.</i>
+        </p>
+    </body>
+</html>

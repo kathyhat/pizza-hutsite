@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="pizzacss.css">
+
+        <title>Pizza Hut Learning Website</title>
+    </head>
+    <body>
+        <h1><a href="index.html">Pizza Hut Learning Website</a></h1>
+        
+        <form>
+            <fieldset>
+                <legend><h3>Registration</h3></legend>
+                <table>
+                    <tr>
+                        <td><label for="salutation">Salutation:</label></td>
+                        <td>
+                            <select name="salutation"> 
+                                <option value="mr">Mr</option> 
+                                <option value="ms">Ms</option> 
+                                <option value="mrs">Mrs</option> 
+                                <option value="mdm">Mdm</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname" name="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname" name="lname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="bday">Birthday:</label></td>
+                        <td><input type="date" id="bday" name="bday" min="1900-01-01" max="2010-01-01" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><textarea name="address" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pcode">Postal Code:</label></td>
+                        <td><input type="number" id="pcode" name="pcode" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pword">Password:</label></td>
+                        <td><input type="password" id="pword" name="pword" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cpword">Confirm Password:</label></td>
+                        <td><input type="password" id="cpword" name="cpword" required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="right">
+                            <button type="reset">Clear</button>
+                            <button type="submit">Register</button>
+                        </td>
+                    </tr>
+                </table>
+                
+            </fieldset>
+        <p>
+            <a href="login.html">Have an account? Login here!</a>
+        </p>
+        <p class="bottom">
+            <i>This is a learning website. All images and content are taken from <a href="https://www.pizzahut.com.sg/" target="_blank">https://www.pizzahut.com.sg/</a>.</i>
+        </p>
+    </body>
+</html>
